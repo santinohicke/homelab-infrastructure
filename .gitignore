@@ -1,0 +1,56 @@
+# ==========================================
+# Homelab Infrastructure - .gitignore
+# Prevents leaking sensitive data to public repositories
+# ==========================================
+
+# Environment variables & secrets
+.env
+*.env
+*.env.local
+secrets/
+*.secret
+
+# Certificates and private keys
+*.pem
+*.key
+*.crt
+*.csr
+*.pfx
+*.p12
+*.cer
+*.der
+ssl/
+certs/
+
+# Persistent data volumes (Stateful application data)
+data/
+volumes/
+/data/
+/data/*
+
+# Backups & dumps
+backups/
+*.tar.gz
+*.tar
+*.bak
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+*.sql.gz
+
+# Logs & telemetries
+*.log
+logs/
+npm/data/logs/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# IDE and Editor configurations
+.idea/
+.vscode/
+*.swp
+*.swo

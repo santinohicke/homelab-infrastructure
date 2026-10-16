@@ -1,0 +1,14 @@
+# ==============================================================================
+# PI-HOLE CUSTOM DNS RECORDS (Mapeo de nombres locales hacia el Reverse Proxy)
+# ==============================================================================
+# Colocar en: /etc/pihole/custom.list
+# Reemplazar 192.168.1.100 con la IP estática asignada a tu servidor Homelab.
+# ==============================================================================
+
+192.168.1.100 lab.homelab.local
+192.168.1.100 ha.homelab.local
+192.168.1.100 vault.homelab.local
+192.168.1.100 kuma.homelab.local
+192.168.1.100 npm.homelab.local
+192.168.1.100 portainer.homelab.local
+192.168.1.100 pihole.homelab.local
